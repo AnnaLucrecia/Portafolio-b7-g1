@@ -1,17 +1,42 @@
+@font-face {
+    font-family: 'ComicTitle';
+    src: url('fonts/Action\ Comics.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Normal-Text';
+    src: url('fonts/CocoGothic_trial.ttf') format('truetype');
+}
+
+
 body {
     background-color: #3c84a0;
     color: #f5deb2;
+    font-family: 'Normal-Text', sans-serif;
+    font-size: 20px;
 }
+
+.title {
+    font-family: 'ComicTitle', sans-serif;
+
+}
+
+p.title {
+    font-size: 8px;
+}
+
 
 .navbar {
     background-color: #b1302b;
     /* Color negro con 50% de opacidad */
     padding: 15px;
     width: 100%;
-    position: fixed;
+
+
+    /* position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
+    z-index: 1000; */
 }
 
 .icon {
@@ -24,6 +49,23 @@ body {
     display: flex;
     justify-content: start;
     align-items: center;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        /* Capa oscura */
+        url("assets/wallpaper3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.descripcion {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Fondo negro con 50% de opacidad */
+    padding: 20px;
+    /* Añade un poco de padding para que el contenido no quede pegado a los bordes */
+    border-radius: 8px;
+    /* Redondea los bordes si lo deseas */
 }
 
 .proyecto {
