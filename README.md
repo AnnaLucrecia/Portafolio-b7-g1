@@ -9,7 +9,13 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto desplegado ](https://zingy-pie-a14020.netlify.app/)
 
 ## Secciones del sitio
-![Presentación](assets/wallpaper3.jpeg)
+![Presentación](assets/Pantalla1.png)
+![](assets/Pantalla2.png)
+![](assets/Pantalla3.png)
+![](assets/Pantalla4.png)
+![](assets/Pantalla5.png)
+![](assets/Pantalla6.png)
+
 
 ## Tecnologías 
 

@@ -10,25 +10,38 @@
 
 
 body {
-    background-color: #3c84a0;
-    color: #f5deb2;
+    /* background-color: #3c84a0; */
+    background-color: #f2e7dc;
+    color: #79BED9;
     font-family: 'Normal-Text', sans-serif;
     font-size: 20px;
+    padding-top: 70px;
+    /* Ajusta el valor a la altura de tu navbar */
 }
 
 .title {
     font-family: 'ComicTitle', sans-serif;
+}
 
+h1.title {
+    /* Recuerda que el important no se recomienda usar, estos fueron medidas extremas */
+
+    color: #F2785C !important;
+}
+
+.navbar-brand {
+    /* Recuerda que el important no se recomienda usar, estos fueron medidas extremas */
+    color: #F2785C;
 }
 
 p.title {
     font-size: 8px;
 }
 
-
+/* 
 .navbar {
     background-color: #b1302b;
-    /* Color negro con 50% de opacidad */
+    /* Color negro con 50% de opacidad 
     padding: 15px;
     width: 100%;
 
@@ -36,11 +49,72 @@ p.title {
     /* position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000; */
+    z-index: 1000; 
+} */
+
+.navbar {
+    /* background-color: #b1302b; */
+    background-color: #79BED9;
+    /* Cambia el color del fondo */
+    padding: 1rem 0;
+    /* Añade algo de espacio en la parte superior e inferior */
+    color: #f2e7dc;
 }
 
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+    /* Añade espacio entre cada ítem del menú */
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    /* Añade espacio interno en los enlaces */
+    transition: color 0.3s ease;
+    /* Transición suave cuando cambie el color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffc107;
+    /* Cambia el color al pasar el ratón */
+}
+
+.navbar-toggler {
+    border: none;
+    /* Remueve el borde del botón de hamburguesa */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D%22http://www.w3.org/2000/svg%22 viewBox%3D%220 0 30 30%22%3E%3Cpath stroke%3D%22rgba%28255, 255, 255, 1%29%22 stroke-width%3D%222%22 d%3D%22M4 7h22M4 15h22M4 23h22%22/%3E%3C/svg%3E');
+    /* Cambia el ícono a blanco */
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    /* Alinea los elementos del menú a la derecha */
+}
+
+@media (max-width: 767px) {
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        /* Remueve el espacio entre ítems en móviles */
+    }
+
+    .navbar-nav .nav-link {
+        text-align: center;
+        /* Centra el texto en móviles */
+    }
+}
+
+
+
 .icon {
-    color: #b1302b
+    color: #F2AE2E
 }
 
 
@@ -54,6 +128,20 @@ p.title {
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         /* Capa oscura */
         url("assets/wallpaper3.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#hero2 {
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #79BED9;
+    color: #F2785C;
+
+    /* background-image: url('assets/fondo.png'); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -100,4 +188,78 @@ p.title {
 
 .text-shadow-3 {
     text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25);
+}
+
+
+.card {
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+    /* Bordes redondeados */
+    transition: all 0.3s ease-in-out;
+    /* Transiciones suaves */
+    transform: scale(1);
+    /* Estado inicial */
+}
+
+.card:hover {
+    transform: scale(1.03);
+    /* Aumenta ligeramente el tamaño */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Sombra más pronunciada solo en hover */
+    border: 2px solid #F2AE2E;
+    /* Borde en hover */
+}
+
+.card-header {
+    background-color: #F2785C;
+    color: #f2e7dc;
+    border-radius: 12px 12px 0 0;
+    /* Bordes superiores redondeados */
+}
+
+.card-body {
+    padding: 20px;
+}
+
+button.btn-primary {
+    background-color: #F2AE2E;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #F2785C;
+    /* Cambio de color al pasar el mouse */
+}
+
+.superior-card {
+    background-color: #F2785C;
+}
+
+.longer-card {
+    min-height: 400px;
+    /* Ajusta este valor según la altura que prefieras */
+}
+
+#frase {
+    color: #79BED9;
+}
+
+#cards-h {
+    color: #F2785C;
+}
+
+
+.container p {
+    color: #F2785C;
+}
+
+.my-3 {
+    color: #F2AE2E;
+}
+
+.nav-link i {
+    color: #79BED9;
+    /* Aplica el color azul a todos los íconos */
 }

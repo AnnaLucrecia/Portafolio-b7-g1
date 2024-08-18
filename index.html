@@ -25,37 +25,34 @@
 <body>
     <!-- Cabecera de la página -->
     <header>
-        <nav class="navbar navbar-expand-md" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md fixed-top">
             <div class="container">
-                <a class="navbar-brand text-white" href="#">b.lu.e</a>
+                <a class="navbar-brand" href="#">b.lu.e</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#presentacion">Lu</a>
+                            <a class="nav-link" aria-current="page" href="#presentacion">Lu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page"
-                                href="#habilidades">Habilidades</a>
+                            <a class="nav-link" href="#habilidades">Habilidades</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#proyectos">Proyectos</a>
+                            <a class="nav-link" href="#proyectos">Proyectos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#testimonios">Testimonios</a>
+                            <a class="nav-link" href="#testimonios">Testimonios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#contacto">Contacto</a>
+                            <a class="nav-link" href="#contacto">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-
-
 
     </header>
 
@@ -70,7 +67,8 @@
                         loading="lazy">
                 </div>
                 <div class="col-12 col-md-6 text-center text-md-start">
-                    <h1 id="app" class="display-5 fw-bold text-body-emphasis lh-1 mb-3 title">LU</h1>
+                    <h1 id="app" class="display-5 fw-bold text-body-emphasis lh-1 mb-5 title">LU</h1>
+
                     <p class="lead text-white">Descripción muy bien redactada sobre quien soy y lo que me gusta, y
                         sin faltas de ortografía.</p>
                     <div class="d-grid gap-2 d-md-flex justify-content-md-start">
@@ -81,11 +79,101 @@
             </div>
         </section>
 
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+
+
+        <div id="Dibujos" class="row row-cols-1 row-cols-md-3 mb-5 m-5 text-center align-items-center">
+
+            <div class="col">
+                <div class="card mb-4 rounded-3 ">
+                    <div class="card-header py-3 ">
+                        <h4 class="my-0 fw-normal">Sketch</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="assets/sketch.png" alt="" class="img-fluid">
+
+
+
+
+                        <button id="button1" type="button" class="w-100 btn btn-lg btn-primary">Me interesa</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Line-Art</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="assets/line-art.png" alt="" class="img-fluid">
+                        <button id="button2" type="button" class="w-100 btn btn-lg btn-primary">Me interesa</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+                <div class="card mb-4 rounded-3">
+                    <div class="card-header py-3">
+                        <h4 class="my-0 fw-normal">Color</h4>
+                    </div>
+                    <div class="card-body">
+                        <img src="assets/color.png" alt="" class="img-fluid">
+                        <button id="button3" type="button" class="w-100 btn btn-lg btn-primary">Me interesa</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="hero2" class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center ">
+            <div class="col-md-6 p-lg-5 mx-auto my-5">
+                <h1 class="display-3 fw-bold">
+                    <font style="vertical-align: inherit;">
+                        <font id="hero" style="vertical-align: inherit;">Proximamente</font>
+                    </font>
+                </h1>
+                <!-- <h3 class="fw-normal text-muted mb-3">
+                    <font style="vertical-align: inherit;">
+                        <font style="vertical-align: inherit;">Crea lo que quieras con Aperture</font>
+                    </font>
+                </h3>
+                <div class="d-flex gap-3 justify-content-center lead fw-normal">
+                    <a class="icon-link" href="#">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                Más información
+                            </font>
+                        </font><svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                    <a class="icon-link" href="#">
+                        <font style="vertical-align: inherit;">
+                            <font style="vertical-align: inherit;">
+                                Comprar
+                            </font>
+                        </font><svg class="bi">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </div> -->
+            </div>
+            <div class="product-device shadow-sm d-none d-md-block"></div>
+            <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+        </div>
+
         <section id="habilidades" class="container px-4 py-5" id="featured-3">
             <h2 class="pb-2 border-bottom title">HABILIDADES</h2>
-            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3" id="cards-h">
 
-                <div class="feature col text-white">
+                <div class="feature col">
                     <div class=" d-inline-flex justify-content-center fs-2 py-2">
                         <!-- <svg class="bi" width="1em" height="1em">
                             <use xlink:href="#collection"></use>
@@ -105,7 +193,7 @@
                     </a> -->
                 </div>
 
-                <div class="feature col text-white">
+                <div class="feature col">
                     <div class=" d-inline-flex justify-content-center fs-2 py-2">
                         <!-- <svg class="bi" width="1em" height="1em">
                             <use xlink:href="#collection"></use>
@@ -125,7 +213,7 @@
                     </a> -->
                 </div>
 
-                <div class="feature col text-white">
+                <div class="feature col">
                     <div class=" d-inline-flex justify-content-center fs-2 py-2">
                         <!-- <svg class="bi" width="1em" height="1em">
                             <use xlink:href="#collection"></use>
@@ -151,88 +239,44 @@
 
         </section>
 
+
         <section id="proyectos" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Proyectos</h2>
+            <h2 class="pb-2 border-bottom title">PROYECTOS</h2>
 
             <div class="row row-cols-1 row-cols-lg-4 align-items-stretch g-4 py-5">
-
-
                 <div class="col">
-
-                    <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-
+                    <div id="proyecto-1"
+                        class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg longer-card">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ejemplo</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="http://" target="_blank" class="ps-3">URL</a>
-                                </li>
-                            </ul>
-
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col">
-
-                    <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-
+                    <div id="proyecto-2"
+                        class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg longer-card">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ejemplo</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="http://" target="_blank" class="ps-3">URL</a>
-                                </li>
-                            </ul>
-
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col">
-
-                    <div id="proyecto-3" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-
+                    <div id="proyecto-3"
+                        class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg longer-card">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ejemplo</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="http://" target="_blank" class="ps-3">URL</a>
-                                </li>
-                            </ul>
-
                         </div>
-
                     </div>
                 </div>
 
                 <div class="col">
-
-                    <div id="proyecto-4" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
-
+                    <div id="proyecto-4"
+                        class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg longer-card">
                         <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ejemplo</h3>
-
-                            <ul class="d-flex list-unstyled mt-auto">
-                                <li class="d-flex align-items-center me-3">
-                                    <i class="bi bi-code-square"></i>
-                                    <a href="http://" target="_blank" class="ps-3">URL</a>
-                                </li>
-                            </ul>
-
                         </div>
-
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section id="testimonios">
@@ -249,7 +293,7 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <article class="container text-center">
-                            <img src="assets/ejemplo-2.png" height="300" alt="">
+                            <img src="assets/sketch.png" height="300" alt="">
                             <h3 class="my-3">Maria_Rodriguez</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nulla esse tempore dolore
                             </p>
@@ -258,8 +302,8 @@
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img src="assets/ejemplo-3.png" height="300" alt="">
-                            <h3 class="my-3">David2000</h3>
+                            <img src="assets/line-art.png" height="300" alt="">
+                            <h3 class="my-3">David M.T</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nulla esse tempore dolore
                             </p>
                         </article>
@@ -267,7 +311,7 @@
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img src="assets/ejemplo-4.png" height="300" alt="">
+                            <img src="assets/plane-color.png" height="300" alt="">
                             <h3 class="my-3">Javi_Gamer</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nulla esse tempore dolore
                             </p>
@@ -276,7 +320,7 @@
 
                     <div class="carousel-item">
                         <article class="container text-center">
-                            <img src="assets/ejemplo-5.png" height="300" alt="">
+                            <img src="assets/color.png" height="300" alt="">
                             <h3 class="my-3">Art_Sofia</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nulla esse tempore dolore
                             </p>
@@ -298,19 +342,18 @@
 
     </main>
 
-    <footer id="contacto" class="py-3 my-4">
-        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i
-                        class="bi bi-instagram"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i
-                        class="bi bi-twitter-x"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i
-                        class="bi bi-facebook"></i></a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="bi bi-envelope-at"></i>
-                </a></li>
 
+    <footer id="contacto" class="py-3 my-4" data-bs-theme="dark">
+
+        <h4 id="frase" class="text-center mb-5">"Not only can we create art, art create us."</h4>
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 "><i class="bi bi-instagram"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 "><i class="bi bi-twitter-x"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 "><i class="bi bi-facebook"></i></a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 "><i class="bi bi-envelope-at"></i>
+                </a></li>
         </ul>
-        <p class="text-center text-body-secondary title">© 2024 B_LU_E</p>
+        <p class="text-center title">© 2024 B_LU_E</p>
     </footer>
 
 
