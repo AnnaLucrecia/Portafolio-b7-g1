@@ -40,7 +40,7 @@ typewriterFrase
 
 
 
-const phoneNumber = "3521470377"; // Reemplaza con tu número en formato internacional
+const phoneNumber = "3521072008"; // Reemplaza con tu número en formato internacional
 
 // Función para abrir WhatsApp con un mensaje diferente
 function sendWhatsAppMessage(message) {
