@@ -133,6 +133,13 @@ p.title {
     background-position: center;
 }
 
+img.d-block.mx-auto.img-fluid {
+    max-width: 95%;
+    /* Aumenta el tamaño al 110% de su contenedor */
+    height: auto;
+    /* Mantén la relación de aspecto */
+}
+
 #hero2 {
     height: 90vh;
     display: flex;
